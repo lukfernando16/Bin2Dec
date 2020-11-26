@@ -1,0 +1,87 @@
+:root {
+    --background-color: #19181f;
+    --button-normal-color: #67159c;
+    --background-light: #1e1e26;
+    --accent-color: #07d962;
+    --secondary-color: #e82d92;
+    --text-color: #ffffff;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+body{
+    background-color: #333333;
+    background-image: linear-gradient(62deg, var(--background-color) 0%, var(--button-normal-color) 100%);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    background: #fff;
+    box-shadow: 8px 8px 50px #000000;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    padding: 50px;
+    width: 50%;
+    margin-top: 8%;
+
+}
+
+p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16pt;
+    display: block;
+    margin: 1em;
+}
+
+h1{
+    font-family: 'Archivo', sans-serif;
+
+}
+
+h3{
+    padding-top: 15px;
+}
+
+input[type="text"]{
+    outline: none;
+    background-color: #aaaaaa ;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+input[type="text"]::placeholder{
+    font-family: 'Archivo', sans-serif;
+    color: rgba(0, 0, 0, 0.452);
+}
+
+input[type="button"]{
+    font-family: 'Archivo', sans-serif;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    background-color: #6e5c83;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
